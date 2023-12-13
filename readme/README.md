@@ -1,50 +1,74 @@
 
-## SIGA O PASSO A PASSO ABAIXO:
-___
-### 1ºPASSO - Criar o Fork
+# GIT PASSO A PASSO ABAIXO:
 
->
-> Fork criado
+## Ciclo de vida dos status de arquivos no Git
+
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)
+
+https://githowto.com/
+
+## Comandos e utilitários para o GITHUB
+
+### __Como fazer o Fork de um projeto no git__
+
+#### __1ºPASSO__ - Criar o Fork
+
+> Clicar em __"Fork"__ e depois __"create new fork"__
 
 ![Alt text](image.png)
 
 ___
-### 2ºPASSO - Acessar o Fork
+### __2ºPASSO__ - Acessar o Fork
 
-> Caso deseje é possível anteriormente mudar o nome do repositório clonado
+> Caso deseje é possível mudar o nome do repositório clonado.
 
 ![Alt text](image-1.png)
 
 ___
-### 3ºPASSO - Escolher um diretório para clonagem
+### __3ºPASSO__ - Escolher um diretório para clonagem
 
 > Acessar um diretório via terminal
-
->> No terminal solicitar a apertura para o VSCode
 
 ```
 code .
 ```
->> Inicializar o repositório
+___
+### __4ºPASSO__ - Iniciar o repositório git
+
+>> Inicializar o repositório local no computador utilize o comando abaixo
 
 ```
 git init
 ```
->> Clonar o repositório
+___
+### __5ºPASSO__ - Clonar o repositório git
+
+>> Para clonar o repositório utilize o comando abaixo
 
 ```
 git clone <link_do_repositório>
 ```
+___
+### __6ºPASSO__ - Add os arquivos untrecked files git para serem versionados no repositório git
 
 >> Adicionar todos os arquivo untrecked file para o commit
 ```
 git add .
 ```
+___
+### __7ºPASSO__ - Comitar os arquivos para serem versionados no repositório git
 
 >> Comitar os arquivos e diretórios
 ```
 git commit -m "First version"
 ```
+___
+### __8ºPASSO__ - Acessar o repositório git
 
 >> Acessar o repositório remoto
 

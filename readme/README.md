@@ -40,7 +40,7 @@ code .
 ___
 ### __4ºPASSO__ - Iniciar o repositório git
 
->> Inicializar o repositório local no computador utilize o comando abaixo
+> Inicializar o repositório local no computador utilize o comando abaixo
 
 ```
 git init
@@ -48,7 +48,7 @@ git init
 ___
 ### __5ºPASSO__ - Clonar o repositório git
 
->> Para clonar o repositório utilize o comando abaixo
+> Para clonar o repositório utilize o comando abaixo
 
 ```
 git clone <link_do_repositório>
@@ -56,21 +56,21 @@ git clone <link_do_repositório>
 ___
 ### __6ºPASSO__ - Add os arquivos untrecked files git para serem versionados no repositório git
 
->> Adicionar todos os arquivo untrecked file para o commit
+> Adicionar todos os arquivo untrecked file para o commit
 ```
 git add .
 ```
 ___
 ### __7ºPASSO__ - Comitar os arquivos para serem versionados no repositório git
 
->> Comitar os arquivos e diretórios
+> Comitar os arquivos e diretórios
 ```
 git commit -m "First version"
 ```
 ___
 ### __8ºPASSO__ - Acessar o repositório git
 
->> Acessar o repositório remoto
+> Acessar o repositório remoto
 
 ```
 git remote add <link_do_repositório>

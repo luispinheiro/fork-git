@@ -1,6 +1,8 @@
 
 # GIT PASSO A PASSO ABAIXO:
 
+[Readme-inicial](../README.md)
+
 ## Ciclo de vida dos status de arquivos no Git
 
 
